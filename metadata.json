@@ -1,0 +1,6 @@
+{
+  "name": "GeoNav",
+  "description": "FOSS, privacy-first Android navigation and mapping platform built with Jetpack Compose and MapLibre.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

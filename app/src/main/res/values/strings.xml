@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoNav</string>
+    <string name="app_tagline">Privacy-first FOSS navigation</string>
+
+    <!-- Navigation & Map -->
+    <string name="search_hint">Search places, addresses, coordinates…</string>
+    <string name="recenter_map">Recenter to current location</string>
+    <string name="map_layers">Map layers and styles</string>
+    <string name="compass_content_description">Compass indicator</string>
+    <string name="start_navigation">Start</string>
+    <string name="stop_navigation">Stop navigation</string>
+    <string name="route_preview">Route Preview</string>
+    <string name="alternate_routes">Alternate routes</string>
+    <string name="speed_limit">Speed Limit</string>
+    <string name="current_speed">Current Speed</string>
+    <string name="eta_label">ETA</string>
+    <string name="distance_remaining">Distance</string>
+    <string name="time_remaining">Remaining</string>
+    <string name="turn_in">In</string>
+
+    <!-- Map Styles -->
+    <string name="style_standard">Standard</string>
+    <string name="style_dark">Dark</string>
+    <string name="style_light">Light</string>
+    <string name="style_satellite">Satellite (Hybrid)</string>
+    <string name="style_terrain">Terrain / Outdoors</string>
+    <string name="style_cycling">Cycling</string>
+
+    <!-- Transport Modes -->
+    <string name="mode_drive">Drive</string>
+    <string name="mode_walk">Walk</string>
+    <string name="mode_cycle">Cycle</string>
+    <string name="mode_hike">Hike</string>
+    <string name="mode_transit">Transit</string>
+
+    <!-- Route Preferences -->
+    <string name="pref_fastest">Fastest</string>
+    <string name="pref_shortest">Shortest</string>
+    <string name="pref_eco">Eco-friendly</string>
+    <string name="pref_scenic">Scenic</string>
+    <string name="pref_avoid_tolls">Avoid tolls</string>
+    <string name="pref_avoid_highways">Avoid highways</string>
+
+    <!-- Saved Places -->
+    <string name="saved_places_title">Saved Places</string>
+    <string name="save_place">Save</string>
+    <string name="saved_home">Home</string>
+    <string name="saved_work">Work</string>
+    <string name="saved_favorites">Favorites</string>
+
+    <!-- Offline Maps -->
+    <string name="offline_maps_title">Offline Maps</string>
+    <string name="download_region">Download Region</string>
+    <string name="update_button">UPDATE</string>
+    <string name="storage_used">Storage Used</string>
+    <string name="auto_update_settings">Auto-update settings</string>
+
+    <!-- Positioning & Privacy -->
+    <string name="position_fusion_status">Position Fusion</string>
+    <string name="confidence_high">High GNSS Confidence</string>
+    <string name="confidence_medium">Medium Confidence</string>
+    <string name="confidence_dead_reckoning">Dead Reckoning Active</string>
+    <string name="permission_location_prompt">GeoNav needs location access to provide real-time positioning and turn-by-turn navigation.</string>
+    <string name="grant_permission">Grant Permission</string>
+
+    <!-- Settings & About -->
+    <string name="settings_title">Settings</string>
+    <string name="about_title">About GeoNav</string>
+    <string name="license_notice">GeoNav is Free and Open Source Software licensed under GNU GPLv3.</string>
+    <string name="osm_attribution">Map data © OpenStreetMap contributors, ODbL 1.0.</string>
+    <string name="maplibre_attribution">Rendered natively with MapLibre Native.</string>
+</resources>
