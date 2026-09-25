@@ -52,4 +52,4 @@ See [`LICENSE`](LICENSE) for the full license.
 
 ---
 
-> **GeoNav — maps without the lock-in.**
+> **GeoNav — maps without the tracking.**
