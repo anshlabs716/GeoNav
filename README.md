@@ -8,6 +8,14 @@
 
 **GeoNav** is a FOSS, privacy-first Android navigation platform designed to provide powerful maps, navigation, offline mapping, smart search, and deep Android integration.
 
+## 📑 Table of Contents
+
+- [🚧 Early Development](#-early-development)
+- [✨ Planned](#-planned)
+- [🌍 Built With](#-built-with)
+- [🔐 Philosophy](#-philosophy)
+- [📜 License](#-license)
+
 ## 🚧 Early Development
 
 GeoNav is currently in the planning and early development stage.
