@@ -2,8 +2,6 @@
 
 High-level structure of GeoNav.
 
-# Architecture
-
 This page describes the high-level structure of GeoNav. It is a starting
 point and is updated as the implementation evolves.
 
@@ -13,10 +11,10 @@ GeoNav
 
 ## Main components
 
-- `**Kotlin**`
-- `**MapLibre**`
-- `**OpenStreetMap**`
-- `**AndroidX**`
+- **Kotlin**
+- **MapLibre**
+- **OpenStreetMap**
+- **AndroidX**
 
 ## Data flow
 

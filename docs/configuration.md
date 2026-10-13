@@ -2,8 +2,6 @@
 
 How to configure GeoNav.
 
-# Configuration
-
 Reference for configuring GeoNav.
 
 ## Where configuration lives
