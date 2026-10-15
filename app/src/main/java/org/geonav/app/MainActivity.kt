@@ -42,6 +42,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -82,9 +83,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         setContent {
-            GeoNavTheme {
+            val app = GeoNavApplication.instance
+            val currentTheme by app.settingsRepository.themeMode.collectAsState()
+
+            GeoNavTheme(themeMode = currentTheme) {
                 val context = LocalContext.current
-                val app = GeoNavApplication.instance
                 val drawerState = androidx.compose.material3.rememberDrawerState(DrawerValue.Closed)
                 val coroutineScope = rememberCoroutineScope()
                 var currentScreen by remember { mutableStateOf(GeoNavScreen.MAP) }
