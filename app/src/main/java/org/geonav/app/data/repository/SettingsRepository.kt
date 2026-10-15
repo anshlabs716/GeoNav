@@ -31,10 +31,16 @@ class SettingsRepository(context: Context) {
     private val prefs: SharedPreferences =
         context.getSharedPreferences("geonav_settings", Context.MODE_PRIVATE)
 
+    private fun readThemeMode(): AppThemeMode {
+        val stored = prefs.getString("theme_mode", AppThemeMode.DARK.name)
+        return stored?.let {
+            runCatching { AppThemeMode.valueOf(it) }
+                .getOrDefault(AppThemeMode.DARK)
+        } ?: AppThemeMode.DARK
+    }
+
     // Theme mode
-    private val _themeMode = MutableStateFlow(
-        AppThemeMode.valueOf(prefs.getString("theme_mode", AppThemeMode.SYSTEM.name) ?: AppThemeMode.SYSTEM.name)
-    )
+    private val _themeMode = MutableStateFlow(readThemeMode())
     val themeMode: StateFlow<AppThemeMode> = _themeMode.asStateFlow()
 
     // Map Style
